@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">M. Idriss</string>
+    <string name="prof_name">M/Idriss Mohammed</string>
+    <string name="prof_num">01142995768\n01158646646</string>
+    <string name="start">Start</string>
+    <string name="lessons">Lessons</string>
+    <string name="exams">Exams</string>
+    <string name="exam_code">Enter exam code</string>
+    <string name="code">Code</string>
+    <string name="exam">Exam</string>
+    <string name="next">Next</string>
+</resources>
