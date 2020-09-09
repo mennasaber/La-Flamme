@@ -9,7 +9,7 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        tools:context=".DataEnterActivity">
+        tools:context=".ui.activties.DataEnterActivity">
 
         <RelativeLayout
             android:id="@+id/toolbarRelativeLayout"
@@ -38,7 +38,7 @@
         <EditText
             android:id="@+id/nameEditText"
             android:layout_width="wrap_content"
-            android:layout_height="35dp"
+            android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:background="@drawable/rounded_border"
             android:ems="10"
@@ -54,7 +54,7 @@
         <EditText
             android:id="@+id/profEmailEditText"
             android:layout_width="wrap_content"
-            android:layout_height="35dp"
+            android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:background="@drawable/rounded_border"
             android:ems="10"

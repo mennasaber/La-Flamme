@@ -9,12 +9,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ExamActivity"></activity>
-        <activity android:name=".TimeActivity" />
-        <activity android:name=".DataEnterActivity" />
-        <activity android:name=".ExamsActivity" />
-        <activity android:name=".LessonsActivity" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".QuestionActivity"></activity>
+        <activity android:name=".ResultActivity" />
+        <activity android:name=".ui.activties.ExamActivity" />
+        <activity android:name=".ui.activties.TimeActivity" />
+        <activity android:name=".ui.activties.DataEnterActivity" />
+        <activity android:name=".ui.activties.ExamsActivity" />
+        <activity android:name=".ui.activties.LessonsActivity" />
+        <activity android:name=".ui.activties.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
