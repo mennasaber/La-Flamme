@@ -1,10 +1,12 @@
-package com.example.midriss
+package com.example.midriss.ui.activties
 
 import android.os.Bundle
+import android.widget.ImageView
 import android.widget.RadioButton
 import android.widget.RadioGroup
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
+import com.example.midriss.R
 import models.ChooseQuestion
 
 class QuestionActivity : AppCompatActivity() {
@@ -33,6 +35,8 @@ class QuestionActivity : AppCompatActivity() {
         r3 = findViewById(R.id.radioButton3)
         r4 = findViewById(R.id.radioButton4)
         chooseRadioGroup = findViewById(R.id.chooseRadioGroup)
+        val back = findViewById<ImageView>(R.id.back)
+        back.setOnClickListener { finish() }
     }
 
     private fun setWidget() {

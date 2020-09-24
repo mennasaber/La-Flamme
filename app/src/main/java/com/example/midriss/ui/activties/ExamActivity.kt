@@ -8,7 +8,6 @@ import android.widget.*
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import com.example.midriss.R
-import com.example.midriss.ResultActivity
 import models.ChooseQuestion
 import models.Exams
 import viewmodels.ExamViewModel
@@ -79,7 +78,8 @@ class ExamActivity : AppCompatActivity() {
         if (questionsList.count() != 0) {
             setWidget()
         }
-
+        val back = findViewById<ImageView>(R.id.back)
+        back.setOnClickListener { finish() }
         nextButton.setOnClickListener {
             val selectedRadioId = chooseRadioGroup.checkedRadioButtonId
             if (selectedRadioId != -1) {
@@ -114,6 +114,7 @@ class ExamActivity : AppCompatActivity() {
                     args.putSerializable("answerMapIndex", viewModel.answerMapIndex)
                     intent.putExtra("BUNDLE", args)
                     startActivity(intent)
+                    finish()
                     Toast.makeText(
                         this,
                         "Your score is ${((viewModel.correctCount.toDouble() / viewModel.answerMapBoolean.count()) * 100).toBigDecimal()

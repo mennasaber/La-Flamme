@@ -7,8 +7,8 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.example.midriss.QuestionActivity
 import com.example.midriss.R
+import com.example.midriss.ui.activties.QuestionActivity
 import models.ChooseQuestion
 
 class ResultAdapter(

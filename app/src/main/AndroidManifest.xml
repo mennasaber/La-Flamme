@@ -9,8 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".QuestionActivity"></activity>
-        <activity android:name=".ResultActivity" />
+        <activity android:name=".ui.activties.QuestionActivity" />
+        <activity android:name=".ui.activties.ResultActivity" />
         <activity android:name=".ui.activties.ExamActivity" />
         <activity android:name=".ui.activties.TimeActivity" />
         <activity android:name=".ui.activties.DataEnterActivity" />
